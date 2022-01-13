@@ -52,7 +52,7 @@ export default function MyTable() {
   }, []);
 
   useEffect(() => {
-    if (tableData ) {
+    if ( tableData ) {
       setTableRows(tableData);
     }
   }, [tableData]);
