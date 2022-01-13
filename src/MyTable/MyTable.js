@@ -69,7 +69,6 @@ export default function MyTable() {
       setOpen(true);
     }
   };
-  console.log("aaa");
   const handleCancel = () => {
     setOpen(false);
     setTableRow(null);
