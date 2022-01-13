@@ -52,7 +52,7 @@ export default function MyTable() {
   }, []);
 
   useEffect(() => {
-    if ( tableData ) {
+    if (tableData) {
       setTableRows(tableData);
     }
   }, [tableData]);
@@ -69,7 +69,7 @@ export default function MyTable() {
       setOpen(true);
     }
   };
-
+  console.log("555");
   const handleCancel = () => {
     setOpen(false);
     setTableRow(null);
